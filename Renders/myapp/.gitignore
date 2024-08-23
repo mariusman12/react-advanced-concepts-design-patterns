@@ -1,0 +1,51 @@
+# Nodul_modules
+node_modules/
+
+# Fișiere de build
+dist/
+build/
+
+# Fișiere de cache
+.cache/
+.next/
+.vscode/
+.idea/
+
+# Fișiere de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Fișiere de configurare locală
+.env
+.env.local
+.env.*.local
+.envrc
+*.env
+
+# Fișiere generate de sistem (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Fișiere de pachete lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Fișiere temporare
+*.tmp
+*.temp
+
+# Fișiere de compilare TypeScript
+*.tsbuildinfo
+
+
+# Fișiere specifice editorului sau IDE-ului
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Fișiere de test/coverge
+coverage/
